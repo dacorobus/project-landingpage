@@ -6,4 +6,9 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap:nowrap;
+    gap: 1rem;
+}
+
+.nav-logo {
+    margin-right:auto;
 }
