@@ -76,3 +76,15 @@ body>* {
 .hero>* {
     padding-bottom: 2rem;
 }
+
+.btn-color,
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.default-btn {
+    padding: .15rem 1rem;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 5px;
+}
