@@ -7,10 +7,6 @@ body>* {
     box-sizing: border-box;
 }
 
-.sections {
-    height: 250px;
-}
-
 .nav-container {
     display: flex;
     justify-content: flex-end;
@@ -102,6 +98,8 @@ body>* {
     flex-wrap: nowrap;
     align-items: flex-start;
     gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .fau-image-outline {
