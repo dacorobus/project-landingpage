@@ -9,13 +9,13 @@
 </head>
 <body>
     <header class="hero">
-        <nav class="nav-container">
+        <nav class="nav-container container-settings">
             <div class="nav-logo hero-logo-text">Header Logo</div>
             <div class="hero-link-text">header link one</div>
             <div class="hero-link-text">header link two</div>
             <div class="hero-link-text">header link three</div>
         </nav>
-        <section class="sections hero-section-container">
+        <section class="hero-section-container container-settings">
             <div>
                 <h1 class="hero-main-text">This website is awesome</h1>
                 <p class="hero-secondary-text">This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast.</p>
@@ -26,44 +26,52 @@
             </div>
         </section>
     </header>
-    <section class="random-container">
-        <h2>Some random information.</h2>
-        <div class="random-image-container">
-            <div>
-                <div class="fau-image-outline"></div>
-                <p class="fau-image-text">this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <div class="fau-image-outline"></div>
-                <p class="fau-image-text">this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <div class="fau-image-outline"></div>
-                <p class="fau-image-text">this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <div class="fau-image-outline"></div>
-                <p class="fau-image-text">this is some subtext under an illustration or image</p>
+    <section class="section-spacing">
+        <div class="flex-column">
+            <h2 style="text-align:center;">Some random information.</h2>
+            <div class="random-image-container container-settings">
+                <div>
+                    <div class="fau-image-outline"></div>
+                    <p class="fau-image-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div class="fau-image-outline"></div>
+                    <p class="fau-image-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div class="fau-image-outline"></div>
+                    <p class="fau-image-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <div class="fau-image-outline"></div>
+                    <p class="fau-image-text">this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class="section-quote">
-        <p>This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
-    </section>
-    <section>
-        <div class="call-to-action">
-                <div>
-                    <p>Call to action!  It's time!</p>
-                    <p>Sign up for our product by clicking that right over there!</p>
-                </div>
-                <div>
-                    <button class="default-btn btn-color" type="button">Sign up</button>
-                </div>
+    <section class="section-quote section-spacing">
+        <div class="flex-column">
+            <p class="container-settings">This is an inspiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p>
+            <p class="container-settings">-Thor, God of Thunder</p>
         </div>
     </section>
-    <footer>
-        <p>Copyright &copy; The Odin Project 2021</p>
+    <section class="section-spacing">
+        <div class="flex-column">
+            <div class="call-to-action container-settings">
+                    <div>
+                        <p>Call to action!  It's time!</p>
+                        <p>Sign up for our product by clicking that right over there!</p>
+                    </div>
+                    <div>
+                        <button class="default-btn btn-color" type="button">Sign up</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer hero-secondary-text">
+        <div class="flex-column">
+            <p class="container-settings">Copyright &copy; The Odin Project 2021</p>
+        </div>
     </footer>
 </body>
 </html>
