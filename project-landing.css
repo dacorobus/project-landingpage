@@ -103,3 +103,17 @@ body>* {
     align-items: flex-start;
     gap: 1rem;
 }
+
+.fau-image-outline {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-radius: 10%;
+}
+
+.fau-image-text {
+    width: 150px;
+    text-align: center;
+}
